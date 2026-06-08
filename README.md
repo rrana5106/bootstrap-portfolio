@@ -1,256 +1,215 @@
-# bootstrap-portfolio
-A responsive portfolio website migrated to Bootstrap 4 using Bootstrap's grid system, cards, forms, buttons, and utility classes.
-<!doctype html>
-<html lang="en">
-<head>
-  <!-- Basic page setup -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+# Bootstrap Portfolio Website
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+## Overview
 
-  <title>Rupesh Portfolio</title>
-</head>
+This project is a responsive personal portfolio website created using **Bootstrap 5** and **jQuery UI**. The website was migrated from a previous HTML and CSS portfolio project to take advantage of Bootstrap's responsive grid system, utility classes, and pre-built components.
 
-<body>
+The portfolio includes an About Me section, Project Showcase, Contact Form, and an interactive jQuery UI Accordion widget.
 
-  <!-- Navigation bar -->
-  <!-- Using Bootstrap Navbar component for responsive navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#home">Rupesh Portfolio</a>
+---
 
-    <!-- Hamburger menu for mobile devices -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#mainNavbar"
-      aria-controls="mainNavbar"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+## Live Demo
 
-    <!-- Navigation links -->
-    <div class="collapse navbar-collapse" id="mainNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+🔗 GitHub Pages:
+https://rrana5106.github.io/bootstrap-portfolio/
 
-  <!-- Hero section -->
-  <!-- First thing visitors will see -->
-  <header id="home" class="bg-primary text-white text-center py-5 mt-5">
-    <div class="container">
-      <h1 class="display-4">Hello! Welcome to my Page</h1>
+---
 
-      <p class="lead">
-        This is my portfolio page where you can contact me and view my work.
-      </p>
+## GitHub Repository
 
-      <!-- Quick contact buttons -->
-      <div class="mb-4">
-        <a href="mailto:test@gmail.com" class="btn btn-light mr-2">
-          Email Me
-        </a>
+🔗 Repository Link:
+https://github.com/rrana5106/bootstrap-portfolio
 
-        <a href="tel:+4400123456" class="btn btn-outline-light">
-          Call Me
-        </a>
-      </div>
+---
 
-      <!-- Button to jump to projects section -->
-      <a href="#projects" class="btn btn-dark">
-        View My Projects
-      </a>
-    </div>
-  </header>
+## Features
 
-  <main>
+* Responsive Navigation Bar
+* Hero Section
+* About Me Section
+* Interactive jQuery UI Accordion
+* Project Cards
+* Contact Form
+* Responsive Design
+* Mobile-Friendly Layout
+* Custom Profile Image Styling
+* GitHub Pages Deployment
 
-    <!-- About Me Section -->
-    <section id="about" class="container py-5">
-      <h2 class="text-center mb-4">About Me</h2>
+---
 
-      <!-- Bootstrap grid used for responsive layout -->
-      <div class="row align-items-center">
+## Technologies Used
 
-        <!-- Profile image -->
-        <div class="col-md-4 text-center mb-4 mb-md-0">
-          <img
-            src="./assets/images/profile.JPG"
-            alt="Rupesh profile picture"
-            class="img-fluid rounded-circle shadow"
-          />
-        </div>
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript
+* jQuery
+* jQuery UI
+* Git & GitHub
+* GitHub Pages
 
-        <!-- About card -->
-        <div class="col-md-8">
-          <div class="card shadow">
-            <div class="card-body">
-              <h3 class="card-title">Rupesh Rana Magar</h3>
+---
 
-              <p class="card-text">
-                I am currently learning Full Stack Development at Step8Up
-                Bootcamp. I am passionate about building websites and improving
-                my coding skills every day. I enjoy working with HTML, CSS, and
-                modern web technologies. This portfolio is my first project
-                where I practice building responsive layouts, navigation bars,
-                project sections, and contact forms.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+## Bootstrap Components Used
 
-    <!-- Projects Section -->
-    <!-- Bootstrap cards used to display projects -->
-    <section id="projects" class="bg-light py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Projects</h2>
+### Navbar
 
-        <div class="row">
+A responsive Bootstrap navigation bar was used to replace the original custom navigation menu.
 
-          <!-- Project 1 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="https://placehold.co/400x250"
-                class="card-img-top"
-                alt="Project One"
-              />
+### Cards
 
-              <div class="card-body">
-                <h3 class="card-title">Project One</h3>
-                <p class="card-text">Coming Soon...</p>
+Bootstrap cards were used for:
 
-                <a href="#" class="btn btn-primary">
-                  View Project
-                </a>
-              </div>
-            </div>
-          </div>
+* About Me section
+* Project showcase section
+* Contact form container
 
-          <!-- Project 2 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="https://placehold.co/400x250"
-                class="card-img-top"
-                alt="Project Two"
-              />
+### Buttons
 
-              <div class="card-body">
-                <h3 class="card-title">Project Two</h3>
-                <p class="card-text">Coming Soon...</p>
+Bootstrap button components were used for:
 
-                <a href="#" class="btn btn-primary">
-                  View Project
-                </a>
-              </div>
-            </div>
-          </div>
+* Email Me
+* Call Me
+* View My Projects
+* View Project
+* Contact Form Submit Button
 
-          <!-- Project 3 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="https://placehold.co/400x250"
-                class="card-img-top"
-                alt="Project Three"
-              />
+### Forms
 
-              <div class="card-body">
-                <h3 class="card-title">Project Three</h3>
-                <p class="card-text">Coming Soon...</p>
+Bootstrap form controls were used in the Contact Me section.
 
-                <a href="#" class="btn btn-primary">
-                  View Project
-                </a>
-              </div>
-            </div>
-          </div>
+---
 
-        </div>
-      </div>
-    </section>
+## Bootstrap Utility Classes Used
 
-    <!-- Contact Section -->
-    <!-- Bootstrap form component -->
-    <section id="contact" class="container py-5">
-      <h2 class="text-center mb-4">Contact Me</h2>
+Examples include:
 
-      <div class="row justify-content-center">
-        <div class="col-md-8">
+* `container`
+* `container-fluid`
+* `row`
+* `col-md-*`
+* `text-center`
+* `bg-primary`
+* `bg-dark`
+* `bg-light`
+* `text-white`
+* `shadow`
+* `shadow-lg`
+* `py-5`
+* `mb-4`
+* `ms-auto`
+* `w-100`
 
-          <!-- Contact form card -->
-          <form class="card shadow p-4">
+These utility classes helped reduce the amount of custom CSS and improved maintainability.
 
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input
-                type="text"
-                id="name"
-                class="form-control"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
+---
 
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                class="form-control"
-                placeholder="Enter your email"
-                required
-              />
-            </div>
+## jQuery UI Widget
 
-            <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea
-                id="message"
-                class="form-control"
-                rows="5"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-            </div>
+This project includes a **jQuery UI Accordion Widget** in the About Me section.
 
-            <button type="submit" class="btn btn-primary btn-block">
-              Send
-            </button>
+The accordion contains:
 
-          </form>
-        </div>
-      </div>
-    </section>
+* About Me
+* Skills
+* Learning Goals
 
-  </main>
+This widget improves user interaction while demonstrating the use of jQuery UI components.
 
-  <!-- Footer section -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p class="mb-0">
-      &copy; 2026 Rupesh Rana Magar. All rights reserved.
-    </p>
-  </footer>
+---
 
-  <!-- Bootstrap JavaScript dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+## Responsive Design
 
-</body>
-</html>
+Bootstrap's responsive grid system was used to ensure the website adapts to different screen sizes including:
+
+* Mobile Phones
+* Tablets
+* Laptops
+* Desktop Screens
+
+Media queries were also used to optimize the profile image across different devices.
+
+---
+
+## Project Structure
+
+```text
+bootstrap-portfolio/
+│
+├── index.html
+├── README.md
+│
+└── assets/
+    ├── style.css
+    └── images/
+        └── profile.JPG
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rrana5106/bootstrap-portfolio.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd bootstrap-portfolio
+```
+
+Open `index.html` in your browser.
+
+---
+
+## Assignment Requirements Checklist
+
+✅ Existing website migrated to Bootstrap
+
+✅ Bootstrap Grid System implemented
+
+✅ Bootstrap Components used
+
+* Navbar
+* Cards
+* Buttons
+* Forms
+
+✅ Bootstrap Utility Classes utilized
+
+✅ Responsive Design
+
+✅ jQuery UI Widget implemented
+
+✅ GitHub Repository created
+
+✅ GitHub Pages deployment completed
+
+---
+
+## Future Improvements
+
+* Add real project links
+* Add project screenshots
+* Implement form validation
+* Connect contact form to a backend service
+* Add dark/light mode toggle
+* Add animations and transitions
+
+---
+
+## Author
+
+### Rupesh Rana Magar
+
+Full Stack Development Student
+Step8Up Bootcamp
+
+---
+
+## License
+
+This project is created for educational and portfolio purposes.
