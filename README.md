@@ -24,29 +24,29 @@ https://github.com/rrana5106/bootstrap-portfolio
 
 ## Features
 
-* Responsive Navigation Bar
-* Hero Section
-* About Me Section
-* Interactive jQuery UI Accordion
-* Project Cards
-* Contact Form
-* Responsive Design
-* Mobile-Friendly Layout
-* Custom Profile Image Styling
-* GitHub Pages Deployment
+- Responsive Navigation Bar
+- Hero Section
+- About Me Section
+- Interactive jQuery UI Accordion
+- Project Cards
+- Contact Form
+- Responsive Design
+- Mobile-Friendly Layout
+- Custom Profile Image Styling
+- GitHub Pages Deployment
 
 ---
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Bootstrap 5
-* JavaScript
-* jQuery
-* jQuery UI
-* Git & GitHub
-* GitHub Pages
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- jQuery
+- jQuery UI
+- Git & GitHub
+- GitHub Pages
 
 ---
 
@@ -60,19 +60,19 @@ A responsive Bootstrap navigation bar was used to replace the original custom na
 
 Bootstrap cards were used for:
 
-* About Me section
-* Project showcase section
-* Contact form container
+- About Me section
+- Project showcase section
+- Contact form container
 
 ### Buttons
 
 Bootstrap button components were used for:
 
-* Email Me
-* Call Me
-* View My Projects
-* View Project
-* Contact Form Submit Button
+- Email Me
+- Call Me
+- View My Projects
+- View Project
+- Contact Form Submit Button
 
 ### Forms
 
@@ -84,21 +84,21 @@ Bootstrap form controls were used in the Contact Me section.
 
 Examples include:
 
-* `container`
-* `container-fluid`
-* `row`
-* `col-md-*`
-* `text-center`
-* `bg-primary`
-* `bg-dark`
-* `bg-light`
-* `text-white`
-* `shadow`
-* `shadow-lg`
-* `py-5`
-* `mb-4`
-* `ms-auto`
-* `w-100`
+- `container`
+- `container-fluid`
+- `row`
+- `col-md-*`
+- `text-center`
+- `bg-primary`
+- `bg-dark`
+- `bg-light`
+- `text-white`
+- `shadow`
+- `shadow-lg`
+- `py-5`
+- `mb-4`
+- `ms-auto`
+- `w-100`
 
 These utility classes helped reduce the amount of custom CSS and improved maintainability.
 
@@ -110,9 +110,9 @@ This project includes a **jQuery UI Accordion Widget** in the About Me section.
 
 The accordion contains:
 
-* About Me
-* Skills
-* Learning Goals
+- About Me
+- Skills
+- Learning Goals
 
 This widget improves user interaction while demonstrating the use of jQuery UI components.
 
@@ -122,10 +122,10 @@ This widget improves user interaction while demonstrating the use of jQuery UI c
 
 Bootstrap's responsive grid system was used to ensure the website adapts to different screen sizes including:
 
-* Mobile Phones
-* Tablets
-* Laptops
-* Desktop Screens
+- Mobile Phones
+- Tablets
+- Laptops
+- Desktop Screens
 
 Media queries were also used to optimize the profile image across different devices.
 
@@ -173,10 +173,10 @@ Open `index.html` in your browser.
 
 ✅ Bootstrap Components used
 
-* Navbar
-* Cards
-* Buttons
-* Forms
+- Navbar
+- Cards
+- Buttons
+- Forms
 
 ✅ Bootstrap Utility Classes utilized
 
@@ -192,12 +192,12 @@ Open `index.html` in your browser.
 
 ## Future Improvements
 
-* Add real project links
-* Add project screenshots
-* Implement form validation
-* Connect contact form to a backend service
-* Add dark/light mode toggle
-* Add animations and transitions
+- Add real project links
+- Add project screenshots
+- Implement form validation
+- Connect contact form to a backend service
+- Add dark/light mode toggle
+- Add animations and transitions
 
 ---
 
