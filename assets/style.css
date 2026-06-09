@@ -25,10 +25,11 @@
   border-radius: 50%;
 }
 
-.custom-card-img{
-  width: 150px;
+.custom-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
-
 
 @media (min-width: 768px) {
   .custom-pic {
